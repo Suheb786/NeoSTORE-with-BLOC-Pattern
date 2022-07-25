@@ -1,0 +1,13 @@
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/neostorewithbloc
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/assets/fonts/GothamBook.otf
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/assets/fonts/GothamMedium.ttf
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/assets/fonts/GothamBold.otf
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin

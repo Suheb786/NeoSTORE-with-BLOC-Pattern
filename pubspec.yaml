@@ -1,0 +1,39 @@
+name: neostorewithbloc
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.3
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Gotham
+      fonts:
+        - asset: assets/fonts/GothamBook.otf
+    - family: GothamBold
+      fonts:
+        - asset: assets/fonts/GothamBold.otf
+
+    - family: GothamMedium
+      fonts:
+        - asset: assets/fonts/GothamMedium.ttf

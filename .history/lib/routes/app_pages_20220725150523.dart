@@ -1,0 +1,5 @@
+class AppPages {
+  onGenerate(rout){
+
+  }
+}
