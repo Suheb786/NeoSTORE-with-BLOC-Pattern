@@ -1,0 +1,71 @@
+// import 'package:neostorewithbloc/data/constants/constant_parameters.dart';
+
+// import '../../../data/constants/components/enum.dart';
+
+// class RegisterModel {
+//   final String firstName;
+//   final String lastName;
+//   final String email;
+//   final String password;
+//   final String confirmPassword;
+//   final Gender gender;
+//   final String phoneNumber;
+
+//   RegisterModel({
+//     required this.firstName,
+//     required this.lastName,
+//     required this.email,
+//     required this.password,
+//     required this.confirmPassword,
+//     required this.gender,
+//     required this.phoneNumber,
+//   });
+
+//   Map<String, dynamic> toMap() {
+//     return {
+//       ConstantParameter.first_name: firstName,
+//       ConstantParameter.last_name: lastName,
+//       ConstantParameter.email: email,
+//       ConstantParameter.password: password,
+//       ConstantParameter.confirm_password: confirmPassword,
+//       ConstantParameter.gender: gender,
+//       ConstantParameter.phone_no: phoneNumber
+//     };
+//   }
+// }
+
+class RegisterModel {
+  final String first_name;
+  final String last_name;
+  final String email;
+  final String password;
+  final String confirm_password;
+  final String gender;
+  final int phone_no;
+  RegisterModel({
+    required this.first_name,
+    required this.last_name,
+    required this.email,
+    required this.password,
+    required this.confirm_password,
+    required this.gender,
+    required this.phone_no,
+  });
+
+  Map<String, dynamic> toMap() {
+    return {
+      'first_name': first_name,
+      'last_name': last_name,
+      'email': email,
+      'password': password,
+      'confirm_password': confirm_password,
+      'gender': gender,
+      'phone_no': phone_no,
+    };
+  }
+
+  @override
+  String toString() {
+    return 'RegisterUserModel(first_name: $first_name, last_name: $last_name, email: $email, password: $password, confirm_password: $confirm_password, gender: $gender, phone_no: $phone_no,)';
+  }
+}

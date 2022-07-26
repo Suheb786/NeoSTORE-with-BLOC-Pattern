@@ -1,0 +1,3 @@
+class RegisterProvider {
+  registerUser()async{}
+}
