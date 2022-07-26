@@ -1,6 +1,7 @@
 /home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/neostorewithbloc
 /home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/icudtl.dat
 /home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/background.png
 /home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/assets/fonts/GothamBook.otf
 /home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/assets/fonts/GothamMedium.ttf
 /home/suhebneo/Desktop/NeoSTORE-with-BLOC/build/linux/x64/debug/bundle/data/flutter_assets/assets/fonts/GothamBold.otf
