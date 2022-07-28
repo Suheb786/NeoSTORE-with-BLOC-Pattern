@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       theme: Themes(),
       title: 'NeoSTORE with BLOC',
       onGenerateRoute: routes.onGenerate,
-      initialRoute: currentToken != null ? Navigator.pushNamed((context), Routes.REGISTER),
+      initialRoute: currentToken != null ? Navigator.pushAndRemoveUntil((context), Routes.REGISTER),
     );
   }
 }
