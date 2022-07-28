@@ -17,7 +17,7 @@ class LoginController {
 
   void checkLoginButton(GlobalKey<FormState> formKey) {
     if (formKey.currentState!.validate()) {
-      log("Validate")
+      log("Validate form")
     }
   }
 }
