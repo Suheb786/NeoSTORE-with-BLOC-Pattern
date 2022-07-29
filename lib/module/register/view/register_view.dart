@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:neostorewithbloc/data/constants/colors.dart';
+import 'package:neostorewithbloc/data/widgets/snackbars.dart';
 import 'package:neostorewithbloc/module/register/model/register_model.dart';
 
 import '../../../data/components/enum.dart';
@@ -204,7 +205,8 @@ class _RegisterViewState extends State<RegisterView> {
                       ),
                       BlocConsumer<RegisterCubit, RegisterState>(
                         listener: (context, state) {
-                          //!need to impliment
+                          SnackBars().successSnackBar(
+                              context: context, text: "Account created");
                         },
                         builder: (context, state) {
                           RegisterModel registrationModel = RegisterModel(

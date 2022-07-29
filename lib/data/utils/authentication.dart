@@ -17,24 +17,10 @@ class Authentication {
     accessToken = hiveBox.add(StringsConstant.accessToken).toString();
   }
 
-  // intialScreen(String? token, BuildContext context) async {
-  //   log(" ${token.toString()}");
-  //   if (token == null) {
-  //     Navigator.pushNamed((context), Routes.LOGIN);
-  //     log("user logged out");
-  //   } else {
-  //     Navigator.pushNamed(context, Routes.HOME);
-  //   }
-  // }
-
   Future<void> setToken(String? token, BuildContext context) async {
     Box hiveBox = Hive.box(StringsConstant.box);
     if (token == null) {
       hiveBox.clear();
-      // Navigator.pushNamed(
-      //   context,
-      //   Routes.LOGIN,
-      // );
       accessToken = null;
     } else {
       hiveBox.put(StringsConstant.accessToken, token);

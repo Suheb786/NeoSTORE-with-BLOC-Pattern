@@ -10,9 +10,8 @@ part 'home_state.dart';
 class HomeCubit extends Cubit<HomeState> {
   HomeCubit() : super(HomeInitial());
 
-  logout() {
-    Authentication().hiveBox.clear();
-    // Authentication().setToken(null, context);
+  logout(BuildContext context) {
+    Authentication().setToken(null, context);
     emit(HomeLogout());
     log("user Logged out");
   }

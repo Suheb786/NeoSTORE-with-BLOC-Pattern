@@ -20,37 +20,34 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: BlocConsumer<HomeCubit, HomeState>(
-        listener: (context, state) {
-          if (state is HomeLogout) {
-            Navigator.popAndPushNamed(context, Routes.LOGIN);
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBars()
-                  .successSnackBar(context: context, text: "See you soon"),
-            );
-          }
-        },
-        builder: (context, state) {
-          return MaterialButton(
-            color: Colors.blue,
-            onPressed: () {
-              BlocProvider.of<HomeCubit>(context).logout();
-            },
-            splashColor: Colors.blueGrey,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
-                Text(
-                  'Log Out',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 16,
-                  ),
+      body: Center(
+        child: BlocConsumer<HomeCubit, HomeState>(
+          listener: (context, state) {
+            if (state is HomeLogout) {
+              Navigator.popAndPushNamed(context, Routes.LOGIN);
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBars()
+                    .successSnackBar(context: context, text: "See you soon"),
+              );
+            }
+          },
+          builder: (context, state) {
+            return MaterialButton(
+              color: Colors.blue,
+              onPressed: () {
+                BlocProvider.of<HomeCubit>(context).logout(context);
+              },
+              splashColor: Colors.blueGrey,
+              child: Text(
+                'Log Out',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 16,
                 ),
-              ],
-            ),
-          );
-        },
+              ),
+            );
+          },
+        ),
       ),
     );
   }

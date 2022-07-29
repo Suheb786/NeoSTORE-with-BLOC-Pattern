@@ -3,6 +3,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:neostorewithbloc/data/widgets/progressing_indicator.dart';
 import 'package:neostorewithbloc/data/widgets/snackbars.dart';
 import '../../../data/utils/authentication.dart';
 
@@ -105,7 +106,7 @@ class _LoginViewState extends State<LoginView> {
                             },
                             builder: (context, state) {
                               return (state is LoginLoading)
-                                  ? CircularProgressIndicator()
+                                  ? ProgressingIndicator()
                                   : CustomButton(
                                       navigation: () {
                                         final fieldModel = LoginFieldModel(
