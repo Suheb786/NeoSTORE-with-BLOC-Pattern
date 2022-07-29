@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:neostorewithbloc/data/network/common_provider/fetch_user_provider.dart';
+import 'cubit/home_cubit.dart';
+import '../../routes/app_routes.dart';
+
+import '../../data/widgets/snackbars.dart';
+
+class HomeView extends StatefulWidget {
+  const HomeView({Key? key}) : super(key: key);
+
+  @override
+  State<HomeView> createState() => _HomeViewState();
+}
+
+class _HomeViewState extends State<HomeView> {
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: BlocBuilder<HomeCubit, HomeState>(
+        
+        builder: (context, state) {
+          if (state is HomeLoaded) {
+            
+          }
+         },
+      ),
+    );
+  }
+}

@@ -1,0 +1,5 @@
+class FetchUserProvider {
+  fetchUser(){
+    
+  }
+}

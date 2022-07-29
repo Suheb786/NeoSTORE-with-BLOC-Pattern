@@ -1,0 +1,12 @@
+import '';
+
+class FetchUserProvider {
+
+
+
+
+
+  fetchUser(){
+
+  }
+}
